@@ -40,7 +40,7 @@ This is a project I made during my professional degree. It simply allows you to 
 ### Installation
 1. Clone the project
 2. Get your API key on [OpenWeather](https://openweathermap.org/api)
-3. Insert your API key in the variable `$apikey` localed in the file `./open_weather_api/refresh_widget.php`
+3. Insert your API key in the variable `$apikey` located in the file `./open_weather_api/refresh_widget.php`
 3. Run the `./weather.sql` script
 4. Start a server
 
