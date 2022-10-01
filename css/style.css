@@ -1,0 +1,81 @@
+@font-face {
+    font-family: "Arial";
+    font-weight: 400;
+    font-style: normal;
+    src: url("css/arial.ttf") format("ttf");
+    font-display: swap;
+  }
+  
+/* contenu d'une page hors header/footer */
+#content {
+    margin : 10px 30px;
+}
+
+/* icone météo */
+.card i {
+    font-size: 6em;
+    text-align: center;
+    padding-top: 40px;
+    color: #fdcb6e;
+}
+
+/* icone actualiser */
+.card-body i {
+    font-size: 1.5em;
+    padding-top : 0;
+    color : #78c2ad;
+}
+
+/* fait tourner l'icone actualiser */
+.card-body a:hover i {
+    transform: rotate(360deg);
+    transition : .5s ease-in-out;
+}
+
+/* pour le faire revenir à sa place initiale */
+.card-body a i {
+    transition : .5s ease-in-out;
+}
+
+/* bouton ajouter un widget */
+#btn_add_widget {
+    margin-bottom: 15px;
+}
+
+/* widget météo */
+.card-flex {
+    width: 25%;
+}
+
+@media (max-width: 991px) {
+    .card-flex {
+        width: 50%;
+    }
+}
+
+@media (max-width: 350px) {
+    .card-flex {
+        width: 100%;
+    }
+}
+
+/* texte avec heure dernière mise à jour */
+.info-maj {
+    font-size: 0.8em;
+    color : rgba(0,0,0,0.3);
+}
+
+footer {
+    color : rgba(0,0,0,0.3);
+    font-size: 0.9em;
+}
+
+/* contenu du footer */
+footer p {
+    margin : 0;
+}
+
+/* label pour l'input ville */
+.ville {
+    font-size : 1.2em;
+}
