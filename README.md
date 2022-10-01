@@ -22,7 +22,7 @@
     <li>
       <a href="#getting-started">Getting started</a>
       <ul>
-        <li><a href="#installation-android">Installation (Android)</a></li>
+        <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
     <li><a href="#contact">Contact</a></li>
@@ -37,7 +37,7 @@ This is a project I made during my professional degree. It simply allows you to 
 [![Php][Php-img]][Php-url]
 
 ## Getting started
-### Installation (Android)
+### Installation
 1. Clone the project
 2. Get your API key on [OpenWeather](https://openweathermap.org/api)
 3. Insert your API key in the file `./open_weather_api/refresh_widget.php`
